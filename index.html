@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="sytel.css">
+</head>
+<body>
+    <nav class="navbar"> 
+<h1 class="logo">ADVENTURE</h1>
+<ul class="nav-links">
+<li class="active"><a href="#">HOME</a></li>
+<li><a href="#">Tours</a></li>
+<li><a href="#">Explore</a></li>
+<li><a href="#">About</a></li>
+<li class="ctn"><a href="#"></a>Contact</li>
+</ul>
+<img src="./images/line2.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+<h2>Explore The Colorful World</h2>
+<div class="line"></div>
+<h1>WONDERFUL GIFT</h1>
+<a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section>
+        <div class="title"> 
+<h1>Upcoming Events</h1>
+<div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/img8.jpg" alt="">
+                <h4>Everest Camp trak</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Quidem in consequuntur ipsam porro pariatur,<br> sapiente exercitationem reprehenderit aut,<br> voluptatibus repudiandae qui sunt nam,<br> doloremque repellendus!<br> Ab qui velit maxime quidem!</p>
+
+            </div>
+            <div class="col">
+                <img src="./images/img9.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Quidem in consequuntur ipsam porro pariatur,<br> sapiente exercitationem reprehenderit aut,<br> voluptatibus repudiandae qui sunt nam,<br> doloremque repellendus!<br> Ab qui velit maxime quidem!</p>
+
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+       const navlinks = document.querySelector('.nav-links')
+        
+       menuBtn.addEventListener('click',() =>{
+        navlinks.classList.toggle('mobile-menu')
+       })
+    </script>
+</body>
+</html>
