@@ -115,6 +115,84 @@ p{
 .events.ctn{
     margin-top:  30px;
 }
+.explore{
+    width: 100%;
+    height: 80vh;
+    background-image: url('./images/img5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1{
+font-size: 7vmin;
+}
+.explore-content .line{
+    margin-bottom: 50px;
+}
+.explore-content p{
+    color: white;
+}
+.explore-content .ctn{
+    margin-top: 40px;
+}
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+}
+.tours .row .col{
+    width: 50%;
+}
+.tours .image-gallery{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+align-items: center;
+}
+.image-gallery img{
+max-width: 250px;
+margin: 10px; 
+display: flex;
+
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #484872;
+}
+.content-col .line{
+    margin-left: -1px;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+.content-col .ctn{
+    margin-left: -100px;
+}
+.footer{
+    width: 100%;
+   min-height:  100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #484872;
+    text-align: center;
+}
+.footer p{
+  color: whitesmoke;
+  margin: 20px auto;
+  padding: 20px auto;  
+}
 .menu-btn{
     display: block;
 }
@@ -138,4 +216,50 @@ p{
 }
 .nav-links li{
     margin: 30px auto;
+}
+.row{
+    flex-direction: column;
+}
+.row .col{
+    margin: 20px auto;
+}
+.col img{
+    max-width: 90%;
+    display: flex;
+}
+.explore-content{
+    width: 100%;
+}
+.tours .col{
+    width: 100%;
+}
+.image-gallery{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.image-gallery img{
+    width: 90%;
+    display: flex;
+}
+.footer{
+    padding: 10px;
+}
+img{
+    transition: transform .3s ease;
+    display: flex;
+}
+img:hover{
+    transform: scale(1.1);
+    display: flex;
+}
+.ctn:hover{
+    background: whitesmoke;
+    color:#fc036b ;
+    box-shadow: 2px 2px 5px #000056 ;
+
+}
+li:hover{
+    color: #fc036b;
+    cursor:zoom-out;
 }
